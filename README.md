@@ -1,7 +1,7 @@
 # automacao-agi
 
 Projeto de automação de testes web na linguagem JavaScript com Nodejs usando:
- Cypress9.5.0
+ Cypress 9.5.0
 
 Projeto rodando no Chrome 98.0.4758.102
 
