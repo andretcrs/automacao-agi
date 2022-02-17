@@ -1,5 +1,5 @@
 {
-  "name": "lojinha",
+  "name": "automacao-agi",
   "version": "1.0.0",
   "description": "Projeto de testesde aceitação lojinha virtual",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "author": "André Scheffer",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^9.2.1",
+    "cypress": "^9.5.0",
     "cypress-file-upload": "^5.0.8",
     "faker": "^5.5.3"
   },
