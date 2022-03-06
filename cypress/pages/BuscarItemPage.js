@@ -14,21 +14,6 @@ class BuscarItemPage {
       "Resultados da busca por: Agi se estrutura para continuar avançando"
     );
   }
-  buscarItemExistente() {
-    cy.get("#search-open").click();
-    cy.get(".desktop-search > .search-form > label > .search-field").type(
-      "Agi se estrutura para continuar avançando"
-    );
-    cy.get(".desktop-search > .search-form > .search-submit").click();
-    cy.get(".entry-title > a").should(
-      "have.text",
-      "Agi se estrutura para continuar avançando"
-    );
-    cy.get(".archive-title").should(
-      "have.text",
-      "Resultados da busca por: Agi se estrutura para continuar avançando"
-    );
-  }
   buscareItemQueNaoExiste() {
     cy.get(
       "#site-branding > .custom-logo-wrap > .custom-logo-link > .custom-logo"
