@@ -29,9 +29,9 @@ class BuscarItemPage {
   usuarioNavegador() {
     cy.get("#menu-item-569").click();
     cy.get(".archive-title").should("have.text", "Categoria: Suas finanças");
-    cy.get("#menu-item-570 > a").click();
+    cy.get("#menu-item-570").click();
     cy.get(".archive-title").should("have.text", "Categoria: Seus investimentos");
-    cy.get("#menu-item-572 > a").click();
+    cy.get("#menu-item-572").click();
     cy.get(".archive-title").should("have.text", "Categoria: Sua segurança");
   }
 }
